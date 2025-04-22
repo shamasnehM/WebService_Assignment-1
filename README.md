@@ -16,7 +16,7 @@ It allows users to explore meals randomly, by name, by category, or by area (cou
 - 🌍 Filter by Area (e.g., Italian, Moroccan, Mexican)  
 - 🧾 View Full Meal Details (ingredients + instructions)  
 - ❤️ Add/Remove to Favorites using localStorage  
-- 📥 Download Meal Details as PDF *(optional feature)*  
+- 📥 Download Meal Details as PDF  
 - 📱 Fully Responsive Design for mobile and desktop  
 
 ---
