@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>التصنيفات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 التصنيفات</h1>
+  </header>
+  
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="categories.html" class="active">التصنيفات</a>
+    <a href="areas.html">المناطق</a>
+    <a href="favorites.html">المفضلة</a>
+  </nav>
+
+  <main>
+    <select id="categorySelect">
+      <option disabled selected>-- اختر تصنيف --</option>
+    </select>
+    
+    <div id="categoryMeals" class="meal-grid"></div>
+  </main>
+
+  <div id="mealDetails" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeDetails">&times;</span>
+      <h2 id="detailName"></h2>
+      <img id="detailImg" src="" alt="">
+      <h3>المكونات</h3>
+      <ul id="detailIngredients"></ul>
+      <h3>طريقة التحضير</h3>
+      <p id="detailInstructions"></p>
+      <button id="addToFav">❤️ إضافة إلى المفضلة</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
