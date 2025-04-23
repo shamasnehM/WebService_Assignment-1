@@ -54,6 +54,8 @@ It allows users to explore meals randomly, by name, by category, or by area (cou
 3. Navigate between the pages using the top menu.
 4. Enjoy exploring delicious meals!
 
+  🔗 [OR use this link](https://github.com/shamasnehM/WebService_Assignment-1.git)
+
 ---
 
 ## 📸 Screenshots
